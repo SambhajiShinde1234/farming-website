@@ -1,20 +1,22 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import AppLayout from './Components/AppLayout';
-import Home from './pages/Home';
-import About from './pages/About';
-import Contact from './pages/Contact';
+import { Layout } from 'antd';
+import AppHeader from './Components/AppHeader';
+import AppFooter from './Components/Footer';
+
+const { Header, Content, Footer } = Layout;
 
 const App = () => {
   return (
-    <Router>
-      <AppLayout>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </AppLayout>
-    </Router>
+    <Layout className="mainLayout">
+      <Header>
+        <AppHeader/>
+      </Header>
+      <Content>
+        {/* <AppHome/> */}
+      </Content>
+      <Footer>
+        {/* <AppFooter/>   */}
+      </Footer>      
+    </Layout>
   );
 };
 

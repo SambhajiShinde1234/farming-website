@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-      <> Ant Design ©2024 Created by Ant UED</>
+      <>manganga-tech ©2024 Created by manganga-tech</>
     )
   }
   

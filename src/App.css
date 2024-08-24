@@ -1,3 +1,38 @@
+/* AppHeader.css */
+.link-container {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #151515;
+  font-family: 'Inter', sans-serif;
+}
+
+.custom-link {
+  color: #23282d;
+  text-decoration: none;
+}
+
+.custom-link:hover {
+  transform: translateY(-7%);
+  content: '';
+  color: #1f4e3d;
+  transition: all 0.3s linear;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+}
+
+.logo {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
 /* 
 general 
 -------
@@ -14,6 +49,41 @@ body {
   max-width: 1200px;
   padding: 0 15px;
 }
+
+/* 
+responsive
+----------
+*/
+
+.mobileVisible {
+  display: none;
+}
+
+.mobileHidden {
+  display: block;
+}
+
+@media only screen and (max-width: 767px) {
+  .mobileVisible {
+    display: block;
+  }
+  
+  .mobileHidden {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .ant-layout {
   background: #fff !important;
@@ -86,12 +156,6 @@ header
   font-weight: 600;
 }
 
-.header .logo .fas {
-  color: #1890ff;
-  margin: 0 5px 0 0;
-  font-size: 28px;
-}
-
 .header .logo a {
   color: #333;
 }
@@ -117,7 +181,7 @@ header
 .header .ant-anchor-link:before,
 .header .ant-anchor-link:after {
   content: '';
-  background: #1890ff;
+  background: #EFB443;
   width: 1px;
   position: absolute;
   top: 2px;
@@ -445,26 +509,3 @@ footer
   display: block;
 }
 
-/* 
-responsive
-----------
-*/
-@media only screen and (max-width: 991px) {
-  .pricingBlock .ant-row > div:nth-child(2) .ant-list-item {
-    transform: scale(1.14);
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  .pricingBlock .ant-row > div:nth-child(2) .ant-list-item {
-    transform: scale(1);
-  }
-
-  .mobileVisible {
-    display: block;
-  }
-  
-  .mobileHidden {
-    display: none;
-  }
-}

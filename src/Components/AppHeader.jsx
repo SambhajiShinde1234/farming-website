@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Anchor, Drawer, Button, Grid } from 'antd';
-import logo from '../assets/Images/logo.avif';
 
 const { Link } = Anchor;
 const { useBreakpoint } = Grid;
@@ -28,7 +27,7 @@ function AppHeader() {
 
         {/* Show links on tablet and larger screens */}
         {/* {(screen.md || screen.lg) && ( */}
-          <div className='mobileHidden'>
+          <div className='link-container'>
             <a href="#hero" className='custom-link'>Home</a>
             <a href="#about" className='custom-link'>About Us</a>
             <a href="#contact" className='custom-link'>Contact Us</a>

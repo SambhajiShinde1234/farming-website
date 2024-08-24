@@ -17,7 +17,7 @@
 .custom-link:hover {
   transform: translateY(-7%);
   content: '';
-  color: #1f4e3d;
+  color: #49a760;
   transition: all 0.3s linear;
 }
 
@@ -48,6 +48,31 @@ body {
   margin: 0 auto;
   max-width: 1200px;
   padding: 0 15px;
+}
+
+/* 
+hero
+---- 
+*/
+.heroBlock {
+  background: url('./assets/Images/hero1.png') no-repeat;
+  /* background-position: 50% 100%; */
+  background-position: center bottom;
+
+  background-size: cover;
+  height: 70vh;
+  border: 2px solid red;
+}
+
+/* 
+footer
+------
+*/
+.ant-layout-footer {
+  background: #255946 !important;
+  color: #fff !important;
+  padding: 60px 0 !important;
+  text-align: center;
 }
 
 /* 
@@ -463,7 +488,7 @@ footer
 ------
 */
 .ant-layout-footer {
-  background: #111 !important;
+  background: #255946 !important;
   color: #fff !important;
   padding: 60px 0 !important;
   text-align: center;

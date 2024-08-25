@@ -54,14 +54,57 @@ body {
 hero
 ---- 
 */
-.heroBlock {
-  background: url('./assets/Images/hero1.png') no-repeat;
-  /* background-position: 50% 100%; */
-  background-position: center bottom;
-
+.heroBlock1 {
+  background-image: url('./assets/Images/hero1.png');
+  background-position: 50% 100%;
   background-size: cover;
   height: 70vh;
-  border: 2px solid red;
+}
+
+.heroBlock1 .container-fluid {
+  display: block !important;
+}
+
+.heroBlock1 .ant-carousel,
+.heroBlock1 .ant-carousel div {
+  height: 100%;
+}
+
+.heroBlock1 .slick-dots li.slick-active button {
+  background: #1f4e3d !important;
+}
+
+.heroBlock1 .content {
+  max-width: 640px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 0 70px;
+}
+
+.heroBlock1 h3 {
+  color: #f8f8f8;
+  font-size: 45px;
+  line-height: 1.2;
+  margin: 0 0 30px;
+}
+
+.heroBlock1 p {
+  color: #f8f8f8;
+  font-size: 18px;
+  margin: 0 0 30px;
+}
+
+.heroBlock1::before {
+  content: "";
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+  background-image: url('./assets/heroPaperBorder.png');
+  background-position: center center;
+  background-size: cover;
 }
 
 /* 
@@ -298,27 +341,27 @@ header
 hero
 ---- 
 */
-.heroBlock {
+/* .heroBlock {
   background: url('assets/images/bg-hero.jpg') no-repeat;
   background-position: 50% 100%;
   background-size: cover;
   height: 100vh;
-}
+} */
 
-.heroBlock .container-fluid {
+/* .heroBlock .container-fluid {
   display: block !important;
 }
 
 .heroBlock .ant-carousel,
 .heroBlock .ant-carousel div {
   height: 100%;
-}
+} */
 
 .heroBlock .slick-dots li button {
   background: #000 !important;
 }
 
-.heroBlock .slick-dots li.slick-active button {
+/* .heroBlock .slick-dots li.slick-active button {
   background: #1890ff !important;
 }
 
@@ -338,7 +381,7 @@ hero
 
 .heroBlock p {
   margin: 0 0 30px;
-}
+} */
 
 .heroBlock .btnHolder {
   height: auto !important;

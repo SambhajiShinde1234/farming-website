@@ -14,9 +14,9 @@ const App = () => {
       <Content>
         <AppContent />
       </Content>
-      <Footer>
+      {/* <Footer>
         <AppFooter/>  
-      </Footer>      
+      </Footer>       */}
     </Layout>
   );
 };

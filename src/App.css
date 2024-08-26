@@ -50,6 +50,37 @@ body {
   padding: 0 15px;
 }
 
+.titleSpacing {
+  font-size: 2.5rem;
+  color: #255946;
+  font-family: Inter;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.subTitleSpacing {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #151515;
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-family: Inter;
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+ @media screen and (max-width: 428px) {
+  .titleSpacing {
+    font-size: 1.5rem;
+  }
+
+  .subTitleSpacing {
+    font-size: 1rem;
+  }
+ }
+
+
 /* 
 hero
 ---- 
@@ -59,7 +90,19 @@ hero
   background-position: 50% 100%;
   background-size: cover;
   height: 70vh;
+  margin-bottom: 40px;
 }
+
+/* .heroBlock1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7));
+  z-index: 1;
+} */
 
 .heroBlock1 .container-fluid {
   display: block !important;
@@ -91,21 +134,117 @@ hero
 
 .heroBlock1 p {
   color: #f8f8f8;
-  font-size: 18px;
+  font-size: 22px;
   margin: 0 0 30px;
+  line-height: 1.9;
 }
 
-.heroBlock1::before {
-  content: "";
-  width: 100%;
-  height: 50px;
-  position: absolute;
-  bottom: -15px;
-  left: 0;
-  background-image: url('./assets/heroPaperBorder.png');
-  background-position: center center;
-  background-size: cover;
+@media screen and (max-width: 428px){
+  .heroBlock1 h3 {
+    color: #f8f8f8;
+    font-size: 28px;
+    line-height: 1.2;
+    margin: 0 0 30px;
+  }
+  
+  .heroBlock1 p {
+    color: #f8f8f8;
+    font-size: 15px;
+    margin: 0 0 30px;
+  }
 }
+
+
+/* Our Story */
+
+.ourStoryBlock {
+  /* text-align: left; */
+ }
+
+ .ourStoryImg {
+  width: 100%;
+ }
+
+ .ourStoryP {
+  letter-spacing: 2px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: Inter;
+  font-weight: 600;
+  color: #151515;
+  margin: 0  30 0 0;
+ }
+
+ .ourStoryh2 {
+  font-size: 40px;
+  font-family: Inter;
+  font-weight: 700;
+  color: #255946;
+  line-height: 2.4rem;
+  margin-bottom: 30px;
+ }
+
+ .ourStoryP2 {
+  font-size: 16px;
+  line-height: 2rem;
+  font-family: Inter;
+  font-weight: 600;
+  color: #A90904;
+  margin-bottom: 30px;
+}
+
+.ourStoryP2 {
+  font-size: 16px;
+  line-height: 2rem;
+  font-family: Inter;
+  font-weight: 600;
+  color: #A90904;
+  margin-bottom: 30px;
+}
+
+.ourStoryP3 {
+  font-size: 15px;
+  line-height: 2.2rem;
+  font-family: Inter;
+  font-weight: 400;
+  color: #6E7673;
+  margin-bottom: 30px;
+}
+
+.characterSpan {
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 700;
+  color: #49a760;
+  text-wrap: nowrap;
+}
+
+.connectBtn {
+  padding: 30px;
+  color: #FFF;
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 700;
+  letter-spacing: .5px;
+  background-color: #49a760;
+  border: 1px solid #49a760;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 428px) {
+  .ourStoryP {
+    font-size: 12px;
+  }
+
+  .ourStoryh2 {
+    font-size: 30px;
+  }
+
+  .characterSpan {
+    font-size: 16px;
+  }
+
+ }
 
 /* 
 footer
@@ -140,8 +279,6 @@ responsive
     display: none;
   }
 }
-
-
 
 
 

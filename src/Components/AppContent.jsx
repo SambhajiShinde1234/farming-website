@@ -7,7 +7,7 @@ const AppContent = () => {
   return (
     <div>
         <Hero />
-        {/* <About /> */}
+        <About />
         {/* <Contact /> */}
     </div>
   )

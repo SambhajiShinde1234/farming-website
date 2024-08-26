@@ -23,7 +23,7 @@ const About = () => {
                 We prioritize sustainable agricultural practices to ensure the best produce and support responsible farming.
               </p>
               <p className='ourStoryP3'>
-                At Manganga, we are dedicated to empowering farmers with top-quality seeds to enhance both the yield and quality of your crops. 
+                At Manganga-Tech, we are dedicated to empowering farmers with top-quality seeds to enhance both the yield and quality of your crops. 
                 Since our founding in 2020, we've partnered with farmers to provide not only superior seeds but also comprehensive support, 
                 including sustainable packaging solutions and expert technical guidance. 
                 Our goal is to foster a trusted relationship where our high-quality seeds and your successful harvests lead to 

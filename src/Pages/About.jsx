@@ -24,7 +24,7 @@ const About = () => {
               </p>
               <p className='ourStoryP3'>
                 At Manganga-Tech, we are dedicated to empowering farmers with top-quality seeds to enhance both the yield and quality of your crops. 
-                Since our founding in 2020, we've partnered with farmers to provide not only superior seeds but also comprehensive support, 
+                Since our founding in 2020, we've partnered with farmers and Fertilizer shops to provide not only superior seeds but also comprehensive support, 
                 including sustainable packaging solutions and expert technical guidance. 
                 Our goal is to foster a trusted relationship where our high-quality seeds and your successful harvests lead to 
                 improved profitability and sustainable practices for everyone involved.

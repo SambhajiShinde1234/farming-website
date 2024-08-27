@@ -9,8 +9,8 @@ const AppContent = () => {
   return (
     <div>
         <Hero />
-        <About />
         <Products />
+        <About />
         <WhyChooseUs />
         {/* <Contact /> */}
     </div>

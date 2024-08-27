@@ -70,9 +70,35 @@ body {
   margin-bottom: 2px;
 }
 
+.titleSpacingYellow {
+  font-size: 2.5rem;
+  color: #EFB443;
+  font-family: Inter;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.subTitleSpacingYellow {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #EFB443;
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-family: Inter;
+  text-align: center;
+  margin-bottom: 2px;
+}
+
 .containerBg {
   padding: 30px 0;
   background: #F6F5F2;
+}
+
+.containerBgGreen {
+  padding: 30px 0;
+  background: #1F4E3D;
+  background-image: url('./assets/Images/productBgImage.png');
 }
 
  @media screen and (max-width: 428px) {
@@ -253,6 +279,31 @@ hero
   font-family: Inter;
   color: #6E7673;
   text-align: center;
+  margin-bottom: 2px;
+}
+
+/* whyy choose us */
+
+.characterName {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: Inter;
+  color: #EFB443;
+}
+
+.characterBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: left;
+}
+
+.characterDesc {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Inter;
+  color: #6E7673;
+  text-align: left;
   margin-bottom: 2px;
 }
 

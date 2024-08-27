@@ -95,12 +95,6 @@ body {
   background: #F6F5F2;
 }
 
-.containerBgGreen {
-  padding: 30px 0;
-  background: #1F4E3D;
-  background-image: url('./assets/Images/productBgImage.png');
-}
-
  @media screen and (max-width: 428px) {
   .titleSpacing {
     font-size: 1.5rem;
@@ -307,6 +301,60 @@ hero
   margin-bottom: 2px;
 }
 
+/* testimonial */
+
+.containerBgGreen {
+  padding: 30px 0;
+  background: #1F4E3D;
+}
+
+.ant-carousel-div {
+  display: flex;
+  flex-direction: column;
+  gap: 80px; 
+  justify-content: center;
+  align-items: center;
+}
+
+.feedbackMessage {
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 400;
+  color: #d9d9d9;
+}
+
+.farmerName {
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 700;
+  color: #d9d9d9;
+  text-align: center;
+}
+
+.farmerLocation {
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 500;
+  color: #d9d9d9;
+  letter-spacing: 2px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.fas {
+ color: #EFB443;
+ font-size: 18px;
+}
+
+@media only screen and (max-width: 428px) {
+  .feedbackMessage {
+    font-size: 16px;
+  }
+
+  .farmerName {
+    font-size: 18px;
+  }
+}
 /* 
 footer
 ------

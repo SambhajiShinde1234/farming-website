@@ -6,29 +6,29 @@ const PRODUCTS = [
         id: 1,
         name: 'Onion',
         url: onionProduct,
-        areaUnderCultivation: '3.50 Lakh Hactar',
-        producePerHectar: '40 MT Per Hactar'
+        areaUnderCultivation: '3.50 Lakh Ha',
+        producePerHectar: '40 MT Per Ha'
     },
     {
         id: 2,
         name: 'Chilli',
         url: onionProduct,
-        areaUnderCultivation: '2.0 Lakh Hactar',
-        producePerHectar: '30 MT Per Hactar'
+        areaUnderCultivation: '2.0 Lakh Ha',
+        producePerHectar: '30 MT Per Ha'
     },
     {
         id: 3,
         name: 'Garlic',
         url: onionProduct,
-        areaUnderCultivation: '3.50 Lakh Hactar',
-        producePerHectar: '20 MT Per Hactar'
+        areaUnderCultivation: '3.50 Lakh Ha',
+        producePerHectar: '20 MT Per Ha'
     },
     {
         id: 4,
         name: 'Cucumber',
         url: onionProduct,
-        areaUnderCultivation: '5.50 Lakh Hactar',
-        producePerHectar: '10 MT Per Hactar'
+        areaUnderCultivation: '5.50 Lakh Ha',
+        producePerHectar: '10 MT Per Ha'
     }
 ]
 

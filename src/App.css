@@ -51,7 +51,7 @@ body {
 }
 
 .titleSpacing {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #255946;
   font-family: Inter;
   font-weight: 700;
@@ -63,7 +63,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 4px;
   color: #151515;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 700;
   font-family: Inter;
   text-align: center;
@@ -277,6 +277,11 @@ hero
 }
 
 /* whyy choose us */
+.fa {
+ color: #EFB443;
+ font-size: 20px;
+ margin-right: 20px;
+}
 
 .characterName {
   font-size: 20px;

@@ -46,19 +46,19 @@ function Testimonial() {
         <div className='container-fluid'>
             <p className='subTitleSpacingYellow' style={{ marginBottom: '40px'}}>Our Farmer's story</p>
            <div style={{ textAlign: 'center', marginBottom: '20px' }}>
-            <i className='fas fa-star'></i>
-            <i className='fas fa-star'></i>
-            <i className='fas fa-star'></i>
-            <i className='fas fa-star'></i>
-            <i className='fas fa-star'></i>
+            <i className='fas fa-star' aria-hidden="true"></i>
+            <i className='fas fa-star' aria-hidden="true"></i>
+            <i className='fas fa-star' aria-hidden="true"></i>
+            <i className='fas fa-star' aria-hidden="true"></i>
+            <i className='fas fa-star' aria-hidden="true"></i>
             </div>
             <Carousel autoplay>
                 {feedback.map((item) => (
-                    <React.Fragment key={item.id} className='container-fluid'>
+                    <div key={item.id} className='container-fluid'>
                         <p className='feedbackMessage'>{item.message}</p>
                         <p className='farmerName'>{item.farmerName}</p>
                         <p className='farmerLocation' >{item.location}</p>
-                    </React.Fragment>
+                    </div>
                 ))}
             </Carousel>
         </div>

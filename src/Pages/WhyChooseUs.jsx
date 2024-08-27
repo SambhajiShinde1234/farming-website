@@ -32,7 +32,7 @@ const  WhyChooseUs = () => {
             <h3 className='titleSpacing'>The Value We Bring</h3>
             <Row gutter={[20,20]}>
                 {CHARACTERISTICS.map((item) => (
-                    <Col xs={24} sm={12} md={12} lg={12} xl={6}>
+                    <Col xs={24} sm={12} md={12} lg={12} xl={12}>
                         <Card className='characterBlock' key={item.id}>
                             <h3 className='characterName'>
                                 {item.reason}

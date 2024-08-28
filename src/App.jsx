@@ -9,14 +9,14 @@ const App = () => {
   return (
     <Layout className="mainLayout">
       <Header>
-        {/* <AppHeader/> */}
+        <AppHeader/>
       </Header>
       <Content>
         <AppContent />
       </Content>
-      {/* <Footer>
+      <Footer>
         <AppFooter/>  
-      </Footer>       */}
+      </Footer>      
     </Layout>
   );
 };

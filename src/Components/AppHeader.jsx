@@ -25,9 +25,12 @@ function AppHeader() {
             <img src={logo} alt='logo' className='headerLogo'  />
           </a>
        
-         
+          <div className='link-container mobileHidden'>
+            <a href="#hero" className='custom-link'>Home</a>
+            <a href="#about" className='custom-link'>About Us</a>
+            <a href="#contact" className='custom-link'>Contact Us</a>
+          </div>
 
-       
           <div className='mobileVisible'>
             <button type="primary" onClick={showDrawer} style={{ background: 'none', border: 'none' }}>
               <i className="fas fa-bars"></i>

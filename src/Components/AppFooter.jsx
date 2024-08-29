@@ -28,7 +28,7 @@ const Footer = () => {
     return (
         <div className="container-fluid">
           <Row gutter={[20, 20]}>
-            <Col xs={24} sm={24} md={12} lg={6}>
+            <Col xs={0} sm={24} md={12} lg={6}>
                 <img alt="Logo" src={logo} style={{ height: '200px', width: '220px' }}/>
             </Col>
             <Col xs={24} sm={24} md={12} lg={6}>

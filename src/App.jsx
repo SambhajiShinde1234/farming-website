@@ -9,7 +9,7 @@ const App = () => {
   return (
     <Layout className="mainLayout">
       <Header>
-        <AppHeader/>
+        <AppHeader/>  
       </Header>
       <Content>
         <AppContent />

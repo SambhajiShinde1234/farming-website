@@ -1,4 +1,5 @@
 import { Row, Col, Button } from 'antd';
+import WhatsAppButtonGreenLarge from '../assets/Images/WhatsAppButtonGreenLarge.svg'
 import aboutImage from '../assets/Images/aboutImage.png';
 
 const About = () => {
@@ -30,16 +31,21 @@ const About = () => {
                   Our goal is to foster a trusted relationship where our high-quality seeds and your successful harvests lead to 
                   improved profitability and sustainable practices for everyone involved.
                 </p>
+                <Row gutter={[16, 16]} style={{ marginBottom: '50px' }}>
+                  <Col xs={24} sm={12} md={12} lg={12} xl={12}>
+                    <span className='characterSpan'> 🌾Sustainable Farming</span>
+                  </Col>
+                  <Col xs={24} sm={12} md={12} lg={12} xl={12}>
+                    <span className='characterSpan'> 🌾Quality Seed Varieties</span>
+                  </Col>
+                </Row>
+                <a 
+                  aria-label="Chat on WhatsApp" 
+                  href="https://wa.me/919699828385"
+                >
+                  <img alt="Chat on WhatsApp" src={WhatsAppButtonGreenLarge} />
+                </a>
               </div>
-              <Row gutter={[16, 16]}>
-                <Col xs={24} sm={12} md={12} lg={12} xl={12}>
-                  <span className='characterSpan'> 🌾Sustainable Farming</span>
-                </Col>
-                <Col xs={24} sm={12} md={12} lg={12} xl={12}>
-                  <span className='characterSpan'> 🌾Quality Seed Varieties</span>
-                </Col>
-              </Row>
-              <Button className='connectBtn'>Connect With Us</Button> 
             </Col>
           </Row>
         </div>

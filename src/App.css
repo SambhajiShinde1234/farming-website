@@ -366,9 +366,8 @@ footer
 ------
 */
 .ant-layout-footer {
-  /* background: #1F4E3D !important; */
+  background: #F6F5F2 !important;
   padding: 30px 0 !important;
-  /* padding: 0 15px !important, */
 }
 
 .tagline {

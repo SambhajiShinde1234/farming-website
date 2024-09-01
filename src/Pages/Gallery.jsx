@@ -1,5 +1,15 @@
+import { Carousel } from 'antd'
 import React from 'react'
 
+const GALLERY = [
+  {
+    id: 1,
+    url: '',
+    farmerName: '',
+    farmerAddress: '',
+    
+  }
+]
 const Gallery = () => {
   return (
     <div className='containerBg'>
@@ -7,6 +17,9 @@ const Gallery = () => {
             <p className='subTitleSpacing'>See Our Happy Farmers</p>
             <h3 className='titleSpacing'>Gallery</h3>
 
+            <Carousel>
+
+            </Carousel>
         </div>
     </div>
   )

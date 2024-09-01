@@ -66,7 +66,7 @@ const Footer = () => {
               <div className="logoTitleStack">
                 <i className="fa fa-phone-square" aria-hidden="true"></i>
                 <span className="footerAddress">
-                <a href="tel:+918854698752" style={{ color: '#6E7673'}}>
+                <a href="tel:+918854698752" style={{ color: '#6E7673' }}>
                   +91 8854698752
                 </a>
                 </span>

@@ -15,7 +15,7 @@ const Gallery = () => {
     <div className='containerBg'>
         <div className='container-fluid'>
             <p className='subTitleSpacing'>See Our Happy Farmers</p>
-            <h3 className='titleSpacing'>Gallery</h3>
+            <h3 className='titleSpacing'>Farmers Gallery</h3>
 
             <Carousel>
 
